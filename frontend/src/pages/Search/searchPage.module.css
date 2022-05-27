@@ -1,0 +1,15 @@
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.listContainer{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 900px) {
+    .container{
+        padding: 0px 10px;
+    }
+}

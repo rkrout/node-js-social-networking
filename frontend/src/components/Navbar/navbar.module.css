@@ -1,0 +1,81 @@
+.container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d1d5db;
+}
+
+.brandName{
+    font-size: 30px;
+    color: #4f46e5;
+    font-weight: bolder;
+}
+
+.btnContainer{
+    display: flex;
+    gap: 15px;
+}
+
+.iconBtn{
+    padding: 5px;
+    border: 2px solid #d1d5db;
+    color: #4b5563;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+    background-color: var(--gray-200);
+}
+
+.profileImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dropDownBtn{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropDownContainer{
+    margin-top: 18;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 2px solid var(--gray-300);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.dropDownItem{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.activeDropDownItem{
+    background-color: var(--gray-200);
+}
+
+@media (max-width: 900px) {
+    .container{
+        padding: 0 15px;
+    }
+}

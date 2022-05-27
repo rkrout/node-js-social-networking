@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+}
+
+.heading{
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: #4f46e5;
+    font-weight: bold;
+}
+
+.signUpText{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signUpBtn:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .form{
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        border-radius: 0px;
+    }
+}

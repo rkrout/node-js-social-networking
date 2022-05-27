@@ -1,0 +1,91 @@
+.container{
+    max-width: 600px;
+    background-color: white;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profileContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profileImg{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userName{
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.createdAt{
+    color: #444;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.description{
+    color: #444;
+    font-size: 14px;
+}
+
+.postImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.btnContainer{
+    display: flex;
+    gap: 10px;
+}
+
+/* .actionBtn{
+    color: #555;
+    padding: 5px;
+    border: 2px solid #d1d5db;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+.actionBtn{
+    border: 2px solid #d1d5db;
+    color: #555;
+    padding: 5px;
+    background-color: var(--gray-200);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.likeText{
+    color: #444;
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .container{
+        border-left: none;
+        border-right: none;
+        border-radius: 0px;
+        max-width: 100%;
+        padding: 10px;
+    }
+}
